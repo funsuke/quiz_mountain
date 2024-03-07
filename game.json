@@ -1,0 +1,822 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"100": {
+			"type": "image",
+			"path": "image/photo/100.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"nc178020": {
+			"type": "audio",
+			"path": "audio/nc178020",
+			"systemId": "sound",
+			"duration": 169525,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"se_finish": {
+			"type": "audio",
+			"path": "audio/se_finish",
+			"systemId": "sound",
+			"duration": 1080,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"se_hazure": {
+			"type": "audio",
+			"path": "audio/se_hazure",
+			"systemId": "sound",
+			"duration": 1104,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"se_seikai": {
+			"type": "audio",
+			"path": "audio/se_seikai",
+			"systemId": "sound",
+			"duration": 2171,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"se_start": {
+			"type": "audio",
+			"path": "audio/se_start",
+			"systemId": "sound",
+			"duration": 1701,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"batumaru": {
+			"type": "image",
+			"path": "image/batumaru.png",
+			"width": 400,
+			"height": 200
+		},
+		"buttonMusic": {
+			"type": "image",
+			"path": "image/buttonMusic.png",
+			"width": 160,
+			"height": 200
+		},
+		"buttonSound": {
+			"type": "image",
+			"path": "image/buttonSound.png",
+			"width": 160,
+			"height": 200
+		},
+		"clock": {
+			"type": "image",
+			"path": "image/clock.png",
+			"width": 120,
+			"height": 120
+		},
+		"credit": {
+			"type": "image",
+			"path": "image/credit.png",
+			"width": 80,
+			"height": 80
+		},
+		"finish": {
+			"type": "image",
+			"path": "image/finish.png",
+			"width": 1296,
+			"height": 736
+		},
+		"panelCenter": {
+			"type": "image",
+			"path": "image/panelCenter.png",
+			"width": 800,
+			"height": 100
+		},
+		"panelLarge": {
+			"type": "image",
+			"path": "image/panelLarge.png",
+			"width": 460,
+			"height": 300
+		},
+		"panelSmall": {
+			"type": "image",
+			"path": "image/panelSmall.png",
+			"width": 460,
+			"height": 150
+		},
+		"panelTop": {
+			"type": "image",
+			"path": "image/panelTop.png",
+			"width": 800,
+			"height": 300
+		},
+		"tutorial": {
+			"type": "image",
+			"path": "image/tutorial.png",
+			"width": 1280,
+			"height": 720
+		},
+		"license": {
+			"type": "text",
+			"path": "text/license.txt"
+		},
+		"CRandom": {
+			"type": "script",
+			"path": "script/CRandom.js",
+			"global": true
+		},
+		"quiz": {
+			"type": "text",
+			"path": "text/quiz.json"
+		},
+		"001": {
+			"type": "image",
+			"path": "image/photo/001.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"002": {
+			"type": "image",
+			"path": "image/photo/002.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"003": {
+			"type": "image",
+			"path": "image/photo/003.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"004": {
+			"type": "image",
+			"path": "image/photo/004.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"005": {
+			"type": "image",
+			"path": "image/photo/005.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"006": {
+			"type": "image",
+			"path": "image/photo/006.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"007": {
+			"type": "image",
+			"path": "image/photo/007.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"008": {
+			"type": "image",
+			"path": "image/photo/008.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"009": {
+			"type": "image",
+			"path": "image/photo/009.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"010": {
+			"type": "image",
+			"path": "image/photo/010.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"011": {
+			"type": "image",
+			"path": "image/photo/011.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"012": {
+			"type": "image",
+			"path": "image/photo/012.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"013": {
+			"type": "image",
+			"path": "image/photo/013.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"014": {
+			"type": "image",
+			"path": "image/photo/014.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"015": {
+			"type": "image",
+			"path": "image/photo/015.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"016": {
+			"type": "image",
+			"path": "image/photo/016.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"017": {
+			"type": "image",
+			"path": "image/photo/017.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"018": {
+			"type": "image",
+			"path": "image/photo/018.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"019": {
+			"type": "image",
+			"path": "image/photo/019.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"020": {
+			"type": "image",
+			"path": "image/photo/020.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"021": {
+			"type": "image",
+			"path": "image/photo/021.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"022": {
+			"type": "image",
+			"path": "image/photo/022.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"023": {
+			"type": "image",
+			"path": "image/photo/023.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"024": {
+			"type": "image",
+			"path": "image/photo/024.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"025": {
+			"type": "image",
+			"path": "image/photo/025.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"026": {
+			"type": "image",
+			"path": "image/photo/026.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"027": {
+			"type": "image",
+			"path": "image/photo/027.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"028": {
+			"type": "image",
+			"path": "image/photo/028.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"029": {
+			"type": "image",
+			"path": "image/photo/029.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"030": {
+			"type": "image",
+			"path": "image/photo/030.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"031": {
+			"type": "image",
+			"path": "image/photo/031.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"032": {
+			"type": "image",
+			"path": "image/photo/032.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"033": {
+			"type": "image",
+			"path": "image/photo/033.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"034": {
+			"type": "image",
+			"path": "image/photo/034.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"035": {
+			"type": "image",
+			"path": "image/photo/035.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"036": {
+			"type": "image",
+			"path": "image/photo/036.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"037": {
+			"type": "image",
+			"path": "image/photo/037.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"038": {
+			"type": "image",
+			"path": "image/photo/038.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"039": {
+			"type": "image",
+			"path": "image/photo/039.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"040": {
+			"type": "image",
+			"path": "image/photo/040.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"041": {
+			"type": "image",
+			"path": "image/photo/041.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"042": {
+			"type": "image",
+			"path": "image/photo/042.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"043": {
+			"type": "image",
+			"path": "image/photo/043.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"044": {
+			"type": "image",
+			"path": "image/photo/044.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"045": {
+			"type": "image",
+			"path": "image/photo/045.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"046": {
+			"type": "image",
+			"path": "image/photo/046.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"047": {
+			"type": "image",
+			"path": "image/photo/047.jpg",
+			"width": 480,
+			"height": 280
+		},
+		"048": {
+			"type": "image",
+			"path": "image/photo/048.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"049": {
+			"type": "image",
+			"path": "image/photo/049.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"050": {
+			"type": "image",
+			"path": "image/photo/050.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"051": {
+			"type": "image",
+			"path": "image/photo/051.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"052": {
+			"type": "image",
+			"path": "image/photo/052.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"053": {
+			"type": "image",
+			"path": "image/photo/053.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"054": {
+			"type": "image",
+			"path": "image/photo/054.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"055": {
+			"type": "image",
+			"path": "image/photo/055.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"056": {
+			"type": "image",
+			"path": "image/photo/056.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"057": {
+			"type": "image",
+			"path": "image/photo/057.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"058": {
+			"type": "image",
+			"path": "image/photo/058.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"059": {
+			"type": "image",
+			"path": "image/photo/059.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"060": {
+			"type": "image",
+			"path": "image/photo/060.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"061": {
+			"type": "image",
+			"path": "image/photo/061.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"062": {
+			"type": "image",
+			"path": "image/photo/062.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"063": {
+			"type": "image",
+			"path": "image/photo/063.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"064": {
+			"type": "image",
+			"path": "image/photo/064.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"065": {
+			"type": "image",
+			"path": "image/photo/065.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"066": {
+			"type": "image",
+			"path": "image/photo/066.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"067": {
+			"type": "image",
+			"path": "image/photo/067.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"068": {
+			"type": "image",
+			"path": "image/photo/068.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"069": {
+			"type": "image",
+			"path": "image/photo/069.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"070": {
+			"type": "image",
+			"path": "image/photo/070.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"071": {
+			"type": "image",
+			"path": "image/photo/071.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"072": {
+			"type": "image",
+			"path": "image/photo/072.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"073": {
+			"type": "image",
+			"path": "image/photo/073.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"074": {
+			"type": "image",
+			"path": "image/photo/074.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"075": {
+			"type": "image",
+			"path": "image/photo/075.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"076": {
+			"type": "image",
+			"path": "image/photo/076.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"077": {
+			"type": "image",
+			"path": "image/photo/077.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"078": {
+			"type": "image",
+			"path": "image/photo/078.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"079": {
+			"type": "image",
+			"path": "image/photo/079.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"080": {
+			"type": "image",
+			"path": "image/photo/080.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"081": {
+			"type": "image",
+			"path": "image/photo/081.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"082": {
+			"type": "image",
+			"path": "image/photo/082.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"083": {
+			"type": "image",
+			"path": "image/photo/083.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"084": {
+			"type": "image",
+			"path": "image/photo/084.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"085": {
+			"type": "image",
+			"path": "image/photo/085.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"086": {
+			"type": "image",
+			"path": "image/photo/086.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"087": {
+			"type": "image",
+			"path": "image/photo/087.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"088": {
+			"type": "image",
+			"path": "image/photo/088.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"089": {
+			"type": "image",
+			"path": "image/photo/089.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"090": {
+			"type": "image",
+			"path": "image/photo/090.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"091": {
+			"type": "image",
+			"path": "image/photo/091.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"092": {
+			"type": "image",
+			"path": "image/photo/092.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"093": {
+			"type": "image",
+			"path": "image/photo/093.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"094": {
+			"type": "image",
+			"path": "image/photo/094.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"095": {
+			"type": "image",
+			"path": "image/photo/095.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"096": {
+			"type": "image",
+			"path": "image/photo/096.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"097": {
+			"type": "image",
+			"path": "image/photo/097.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"098": {
+			"type": "image",
+			"path": "image/photo/098.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"099": {
+			"type": "image",
+			"path": "image/photo/099.jpg",
+			"width": 420,
+			"height": 280
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/aimgui": "node_modules/@akashic-extension/aimgui/lib/index.js",
+		"@akashic-extension/collision-js": "node_modules/@akashic-extension/collision-js/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 110
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/aimgui/lib/Gui.js",
+		"node_modules/@akashic-extension/aimgui/lib/GuiE.js",
+		"node_modules/@akashic-extension/aimgui/lib/Memory.js",
+		"node_modules/@akashic-extension/aimgui/lib/Placer.js",
+		"node_modules/@akashic-extension/aimgui/lib/WindowManager.js",
+		"node_modules/@akashic-extension/aimgui/lib/generics.js",
+		"node_modules/@akashic-extension/aimgui/lib/index.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/ButtonE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/CheckboxE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/CollapsingE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/HorizonE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/LabelE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/MarginE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/RadioButtonE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/ScrollBar.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/SliderE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/TextBoxE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/WidgetE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/WindowE.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/colors.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/common.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/index.js",
+		"node_modules/@akashic-extension/aimgui/lib/widget/sizes.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/AABB.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/Box.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/Circle.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/Contact.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/Line.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/Polygon.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/Segment.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/gjk.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/index.js",
+		"node_modules/@akashic-extension/collision-js/lib/collision/intersect.js",
+		"node_modules/@akashic-extension/collision-js/lib/index.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/Mat22.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/Mat33.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/Vec2.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/Vec2Like.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/Vec3.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/Vec3Like.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/index.js",
+		"node_modules/@akashic-extension/collision-js/lib/math/utils.js",
+		"node_modules/@akashic-extension/collision-js/lib/sign.js"
+	]
+}
